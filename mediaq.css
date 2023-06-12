@@ -1,0 +1,35 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #sect {
+        width: 90%;
+        background-image: linear-gradient(to right, #5f485f, #743174);
+    }
+
+    #imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #formu {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    #sect {
+        width: 1000px;
+        background-image: linear-gradient(to right, #3a2d3a, #3d193d);
+    }
+
+    #imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #formu {
+        float: right;
+        width: 70%;
+    }
+}
