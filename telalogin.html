@@ -7,6 +7,10 @@
     <title>Tela Login</title>
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="mediaq.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 
 <body>
@@ -15,11 +19,30 @@
             <div id="imagem">
             </div>
             <div id="formulario">
-
-            </div>
-            <div id="login">
                 <h2>Faça Login</h2>
                 <p>faça login para ter acesso ao conteúdo do site</p>
+                <form action="login.php">
+                    <div class="campo">
+                        <label for="iemail">
+                            <span class="material-symbols-outlined">
+                                star
+                            </span>
+                            Email
+                        </label>
+                        <input type="email" name="email" id="iemail" placeholder="Seu email" autocomplete="email"
+                            required>
+                    </div>
+                    <div class="campo">
+                        <label for="isenha">
+                            <span class="material-symbols-outlined">
+                                star
+                            </span>
+                            Senha
+                        </label>
+                        <input type="password" name="senha" id="isenha" autocomplete="new-password" required>
+                    </div>
+                    <input type="submit" value="enviar" id="enviar">
+                </form>
             </div>
         </section>
     </main>
