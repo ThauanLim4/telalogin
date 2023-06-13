@@ -2,6 +2,7 @@
     #sect {
         width: 90%;
         background-image: linear-gradient(to right, #5f485f, #743174);
+        height: 300px;
     }
 
     #imagem {
@@ -13,6 +14,17 @@
     #formu {
         float: right;
         width: 70%;
+    }
+
+    form>input[type=submit] {
+        font-size: 1.5em;
+        width: 69%;
+        position: absolute;
+        bottom: 3px;
+        right: 0;
+        background-color: turquoise;
+        cursor: pointer;
+        margin: 0 5px;
     }
 }
 
@@ -20,6 +32,7 @@
     #sect {
         width: 1000px;
         background-image: linear-gradient(to right, #3a2d3a, #3d193d);
+        height: 400px;
     }
 
     #imagem {
@@ -31,5 +44,16 @@
     #formu {
         float: right;
         width: 70%;
+    }
+
+    form>input[type=submit] {
+        font-size: 1.5em;
+        width: 69%;
+        position: absolute;
+        bottom: 3px;
+        right: 0;
+        background-color: turquoise;
+        cursor: pointer;
+        margin: 0 5px;
     }
 }
